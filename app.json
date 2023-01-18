@@ -1,24 +1,23 @@
 {
   "expo": {
-    "name": "RezepteApp",
-    "slug": "RezepteApp",
+    "name": "Rezept App",
+    "slug": "rezept-app",
+    "description": "Eine App um Rezepte zu speichern und sich zufällig eines dieser Rezepte vorschlagen zu lassen.",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/img/pizzaIcon.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/img/pizzaLoad.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +27,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "109b151e-5df5-4161-8f40-8748e3c1998a"
+      }
+    },
+    "owner": "vagmc"
   }
 }
